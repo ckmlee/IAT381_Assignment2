@@ -1,0 +1,238 @@
+html {
+		font-size: 125%;
+		min-width: 1150px; /*Resize stops at 1115 because we don't wan the navigation list to become two rows and this is before it becomes two rows*/
+		}
+
+* {
+	margin:0;
+	padding:0;
+	border:0;
+	outline:0;
+	font-size:110%; /*changed from 100% to 110%*/
+	font-weight:inherit;
+	font-style:inherit;
+	font-family:inherit;
+	color:inherit;
+	text-align:inherit;
+	}
+		
+body{
+	line-height:1;
+	font-size:50%;
+	font-family: verdana, san-serif;
+	text-align:center;
+	background-color:#d3a7a5
+}
+
+h1{
+	font-size: 30px;
+	text-align: left; /* change from centre to left*/
+	font-weight: bold;
+	font-family: verdana, san-serif;
+	margin-bottom: 5px;
+	color: white;
+}
+
+
+h2{
+	font-size: 15px;
+	text-align: center;
+	font-weight: bold;
+	font-family: verdana, san-serif;
+	margin-bottom: 8px;
+	color: white;
+}
+
+h3{
+	font-size: 15px;
+	text-align: left;
+	font-weight: bold;
+	font-family: verdana, san-serif;
+	margin-bottom: 2px;
+	color: white;
+}
+
+
+p {
+	font-size: 18px;
+	font-family: verdana, san-serif;
+	text-align: left;
+	color: white;
+	line-height: 20px;
+	margin-bottom: 10px;
+}
+
+
+ul #nav {
+
+	font-size:30px;
+	color:white;
+	/*Allows that padding to render in similar way on all browsers.*/
+	-moz-padding-start:0;
+	-webkit-padding-start:0;
+}
+
+.page{
+	/*border:5px solid black;/*Grid visualization guide. Remove when publish*/
+}
+
+.row {
+	position:relative;
+	padding:0px;
+	margin-left:-20px;
+	/*border:1px solid red;*/
+}
+
+.row:after {
+	content:".";
+	display:block;
+	height:0;
+	clear:both;
+	visibility:hidden; 
+}
+
+.col {
+	padding-left:20px;
+	float:left;
+	position:relative;
+	height:100%;
+	/*border:2px solid blue;*/
+}
+
+.pg-header {
+	border-bottom: 5px solid white;/*Grid visualization guide. Remove when publish*/
+
+}
+
+.pg-content .gu6{
+	width:100%;
+	height:43px;
+
+}
+
+
+.pg-content .gu6 .content ul{
+	padding-bottom: 0px;
+	position:absolute;
+	bottom:0px;
+	right: 10%;
+	font-size:20px;
+	color:white;
+	/*Allows that padding to render in similar way on all browsers.*/
+	-moz-padding-start:0;
+	-webkit-padding-start:0;
+}
+
+.pg-content .gu6 .content ul li{
+	padding-bottom: 0px;
+	display:inline; /*Display side by side*/
+	list-style: none; /*Remove bullet point*/
+}
+
+.gu1{
+	width:50%;
+	margin-left: 15%;
+	padding-bottom: 5px;
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+}
+
+.gu1_5{
+	width:30%;
+	text-align:center;
+	/*border:1px solid green;/*Grid visualization guide. Remove when publish*/
+}
+
+.gu1_75{   /* Content: Content Us */
+	width: 30%
+	text-align: left;
+    padding-top: 1%
+	
+}
+
+.gu2{
+	width:50%;  /* paragraph size*/
+	height: 30em;
+	padding-left: 3%;
+	padding-right: 1%;
+	padding-top: 0.8%;
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+}
+
+
+.gu2_75{
+	padding-bottom: 0px;
+	width:430px;
+	height:89px;
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+	position:relative;
+}
+
+.gu3_25{
+	width:510px;
+	height:89px;
+	/*border:1px solid blue; /*Grid visualization guide. Remove when publish*/
+	position:relative;
+	float:right;
+}
+
+.gu4{
+	width: 76%;
+	padding-top: 10px;
+	padding-right: 0px;
+	padding-left: 0px;
+	text-align: center;
+	/*border:1px solid blue;/*Grid visualization guide. Remove when publish*/
+	
+}
+
+.gu6{
+	/*width: 99.3%;*/
+}
+
+
+a{
+	text-decoration: none;
+}
+
+a:active, a:hover{
+	color:#333333;
+	text-decoration: none;
+}
+
+.gu3_25 .content .top_nav {
+	position:absolute;
+	bottom:0px;
+	right: 20px;
+	font-size:20px;
+	color:white;
+	/*Allows that padding to render in similar way on all browsers.*/
+	-moz-padding-start:0;
+	-webkit-padding-start:0;
+}
+
+.gu3_25 .content .top_nav li {
+	display:inline; /*Display side by side*/
+	list-style: none; /*Remove bullet point*/
+}
+
+
+.gu2 .content ul li {
+	display: block;
+	font-size:25px;
+	color:white;
+	text-align: right;
+	margin-bottom:1em; 
+	-moz-padding-start:0;
+	-webkit-padding-start:0;
+}
+
+#HomeImage{
+	width: 100%;
+}
+
+
+#navbar{
+	width:101.5%;
+	height:43px;
+}
+
